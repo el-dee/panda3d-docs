@@ -120,7 +120,7 @@ any shader stage.
    uniform sampler2DShadow p3d_Texture0;
 
    // New in 1.10.0.  Contains the matrix generated from texture pos and scale.
-   uniform mat4 p3d_TextureMatrix[];
+   uniform mat3 p3d_TextureMatrix[];
 
    // Access the color scale applied to the node.
    uniform vec4 p3d_ColorScale;
